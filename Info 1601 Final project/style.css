@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+    background: url("images/vecteezy_minimalist-dark-gradient-wave-background-simple-design-for_7718309.jpg");
+    background-repeat: no-repeat; 
+     background-size: 1005.56px
+}
+
+
+
+ nav {
+   background: black;
+   height: 50px;
+}
+
+ nav> h2{
+    color: white;
+ }
+
+.Side-bar {
+    height: 500px;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: black solid 1px;
+    border-radius: 70%;
+    writing-mode: vertical-lr;
+    gap: 10px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+ .nav-sidebar img,.add-resume img{
+   width: 15px;
+   height:15px;
+   padding: 1px;
+  
+   
+}
+
+.nav-sidebar, .add-resume {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    border: black solid 1px;
+    border-radius: 50%;
+    gap: 10px;
+}
+
+#saved-resumes{
+    margin: 0;
+     border: black solid 1px;
+      gap:10px;
+      width: 10%;
+      height: 100%;
+      flex-grow: 1;
+      background-color: white;
+      height: 100%;
+      border-right: 1px solid black;
+      max-height: 100%;
+      overflow-y: scroll;
+}
+
+footer{
+    height:50px;
+    background:black;
+    
+}
+ footer p{
+    color: white;
+
+ }
